@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <link href="/Styles/index.css" rel="stylesheet" type="text/css">
+  <link href="/Styles/tw.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <link rel="icon" sizes="192x192" href="/Images/favicon.png">
+  <title>WorkBench</title>
+</head>
+
+<body class="h-screen items-baseline justify-evenly p-6">
+    <header class="flex gap-6 sticky">
+        <img src="/Images/Rectangle 531.svg" style="width: 20%; justify-items: baseline;"/>
+        <div class="flex items-center gap-9 w-full">
+            <div class="flex-col">
+                <p class="text-xs">Pages  <span class="font-thin col2">/ Plant Work-In-Progress</span></p>
+                <p class="text-lg">Plant WIP</p>
+            </div>
+            
+            <div class="flex justify-betwwen col1 col px-3 h-10">
+            <input type="text" placeholder="Search" class="col">
+            <img class="w-4" src="/Images/search.svg"/>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="flex gap-2">
+                <img class="w-5" src="/Images/Plant WIP/Night.svg"/>
+                <img class="w-12 mt-2" src="/Images/Plant WIP 3/Group.svg"/>
+                <img class="w-4" src="/Images/Day.svg"/>
+                <img class="w-5 mx-5 mt-1" src="/Images/Notifications.svg"/>
+                <img class="w-5 mr-4 mt-2" src="/Images/Group.svg"/>
+            </div>
+            
+            <div class="flex">
+                <img class="w-16 mx-32" src="/Images/Rectangle 532.svg"/>
+            </div>
+        </div>
+    </header>
+
+<main class="flex overflow-auto" style="height: 91%;">
+    <div class="flex-col pt-4 font-medium text-xs col2">
+        <p class="flex mb-2">PAGES</p>
+        <div class="flex">
+            <img class="w-4" src="/Images/Group1.svg"/>
+            <p class="p-2">Dashboard</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Clients.svg"/>
+            <p class="px-2 py-4">Clients</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group1.svg"/>
+            <p class="px-2 py-4">Farmers</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/home-hashtag.svg"/>
+            <p class="px-2 py-4">Inventory</p>
+            <img class="w-4 mx-7" src="/Images/arrow-down.svg"/>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group2.svg"/>
+            <p class="px-2 py-4">Logistics</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group3.svg"/>
+            <p class="px-2 py-4">Loans</p>
+            <img class="w-4 mx-11" src="/Images/arrow-down.svg"/>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group4.svg"/>
+            <p class="px-2 py-4">Financials</p>
+            <img class="w-4 mx-5" src="/Images/arrow-down.svg"/>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group5.svg"/>
+            <p class="px-2 py-4">Accounting</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group6.svg"/>
+            <p class="px-2 py-4">Cash Advance</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group7.svg"/>
+            <p class="px-2 py-4">Audit</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group8.svg"/>
+            <p class="px-2 py-4">Invoice</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group9.svg"/>
+            <p class="px-2 py-4">System</p>
+        </div>
+
+        <div class="flex">
+            <img class="w-4" src="/Images/Group10.svg"/>
+            <p class="px-2 py-4">Settings</p>
+        </div>
+
+    </div>
+
+    <aside class="flex-col text-xs flex-1 col rounded-2xl bgcol2 items-center">
+        <div class="flex col4">
+            <div class="flex px-10 py-7">
+                <img class="w-4 mb-auto mt-4" src="/Images/Group11.svg"/>
+                <p class="px-2 py-4 col3">Pending Requests</p>
+            </div>
+
+            <div class="flex px-10 py-7 font-medium col2">
+                <img class="w-4 mb-auto mt-4" src="/Images/Group12.svg"/>
+                <p class="px-2 py-4">Approved Requests</p>
+            </div>
+
+            <div class="flex px-10 py-7 font-medium col2">
+                <img class="w-4 mb-auto mt-4" src="/Images/Group13.svg"/>
+                <p class="px-2 py-4">Review</p>
+            </div>
+
+        </div>
+        <div class="bg-white mx-8 rounded-2xl p-2 my-8" style="height: 78%;">
+        <div class="flex flex-1 justify-between mx-10 bg-white px-16 mt-1">
+            <p class="text-sm font-light">Requests</p>
+            <div class="bgcol rounded">
+                <button type="button" class="inline-block bgcol3 px-1 py-2.5 rounded text-white shadow-md focus:ring-0 transition duration-150 ease-in-out font-light">Create Requests</button>
+            </div>
+        </div>
+
+        <div>
+        <div class="flex font-light px-20 mx-8 justify-between col1 h-32 py-4 bg-white">
+            <div class="flex-col">
+                <small class="col2">Contract - ID</small>
+                <span class="flex pb-4">
+                <p>PW-353554-164597137...</p>
+                <img class="w-4" src="/Images/copy.svg"/>
+                </span>
+
+                <small class="col2">LPO Quote</small>
+                <span class="flex">
+                    <img class="w-4" src="/Images/document-text.svg"/>
+                <p>Tunner Report.pdf</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">Commodity</small>
+                <span class="flex pb-4 gap-2">
+                <p>Sesame</p>
+                <img class="w-30" src="/Images/Group 1124.svg"/>
+                </span>
+
+                <small class="col2">Warehouse</small>
+                <span class="flex">
+                <p>Anchau-AFTL</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">End-Product</small>
+                <span class="flex pb-4">
+                <p>Cleaned Sesame</p>
+                </span>
+
+                <small class="col2">Volume (MT)</small>
+                <span class="flex">
+                <p>3000</p>
+                </span>
+            </div>
+            
+            <div class="flex-col ">
+                <small class="col2">Grade</small>
+                <span class="flex pb-4">
+                <p>2</p>
+                </span>
+
+                <small class="col2">Date</small>
+                <span class="flex">
+                <p>May 01, 2022</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">Purity Level</small>
+                <span class="flex pb-4">
+                <p>98%</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">Status</small>
+                <span class="flex pb-4">
+                <p class="col5">Pending</p>
+                </span>
+                <div class="bgcol rounded w-30">
+                    <button type="button" class="inline-block bgcol3 px-6 py-2.5 rounded text-white shadow-md focus:ring-0 transition duration-150 ease-in-out font-light">Modify</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="flex font-light px-20 justify-between mx-8 bg-white col1 h-32 py-4 my-4">
+            <div class="flex-col">
+                <small class="col2">Contract - ID</small>
+                <span class="flex pb-4">
+                <p>PW-353554-164597137...</p>
+                <img class="w-4" src="/Images/copy.svg"/>
+                </span>
+
+                <small class="col2">LPO Quote</small>
+                <span class="flex">
+                    <img class="w-4" src="/Images/document-text.svg"/>
+                <p>Tunner Report.pdf</p>
+                </span>
+            </div>
+
+            <div class="flex-col">
+                <small class="col2">Commodity</small>
+                <span class="flex pb-4 gap-2">
+                <p>Sesame</p>
+                <img class="w-30" src="/Images/Group 1124.svg"/>
+                </span>
+
+                <small class="col2">Warehouse</small>
+                <span class="flex">
+                <p>Anchau-AFTL</p>
+                </span>
+            </div>
+
+            <div class="flex-col">
+                <small class="col2">End-Product</small>
+                <span class="flex pb-4">
+                <p>Cleaned Sesame</p>
+                </span>
+
+                <small class="col2">Volume (MT)</small>
+                <span class="flex">
+                <p>3000</p>
+                </span>
+            </div>
+            
+            <div class="flex-col">
+                <small class="col2">Grade</small>
+                <span class="flex pb-4">
+                <p>2</p>
+                </span>
+
+                <small class="col2">Date</small>
+                <span class="flex">
+                <p>May 01, 2022</p>
+                </span>
+            </div>
+
+            <div class="flex-col">
+                <small class="col2">Purity Level</small>
+                <span class="flex pb-4">
+                <p>98%</p>
+                </span>
+            </div>
+
+            <div class="flex-col">
+                <small class="col2">Status</small>
+                <span class="flex pb-4">
+                <p class="col5">Pending</p>
+                </span>
+                <div class="bgcol rounded">
+                    <button type="button" class="inline-block bgcol3 whitespace-nowrap px-1 py-2.5 rounded text-white shadow-md focus:ring-0 transition duration-150 ease-in-out font-light">View Comment</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex font-light px-20 mx-8 justify-between bg-white col1 h-32 py-4">
+            <div class="flex-col">
+                <small class="col2">Contract - ID</small>
+                <span class="flex pb-4">
+                <p>PW-353554-164597137...</p>
+                <img class="w-4" src="/Images/copy.svg"/>
+                </span>
+
+                <small class="col2">LPO Quote</small>
+                <span class="flex">
+                    <img class="w-4" src="/Images/document-text.svg"/>
+                <p>Tunner Report.pdf</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">Commodity</small>
+                <span class="flex pb-4 gap-2">
+                <p>Sesame</p>
+                <img class="w-30" src="/Images/Group 1124.svg"/>
+                </span>
+
+                <small class="col2">Warehouse</small>
+                <span class="flex">
+                <p>Anchau-AFTL</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">End-Product</small>
+                <span class="flex pb-4">
+                <p>Cleaned Sesame</p>
+                </span>
+
+                <small class="col2">Volume (MT)</small>
+                <span class="flex">
+                <p>3000</p>
+                </span>
+            </div>
+            
+            <div class="flex-col ">
+                <small class="col2">Grade</small>
+                <span class="flex pb-4">
+                <p>2</p>
+                </span>
+
+                <small class="col2">Date</small>
+                <span class="flex">
+                <p>May 01, 2022</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">Purity Level</small>
+                <span class="flex pb-4">
+                <p>98%</p>
+                </span>
+            </div>
+
+            <div class="flex-col ">
+                <small class="col2">Status</small>
+                <span class="flex pb-4">
+                <p class="col5">Pending</p>
+                </span>
+                <div class="bgcol rounded w-30">
+                    <button type="button" class="inline-block bgcol3 px-6 py-2.5 rounded text-white shadow-md focus:ring-0 transition duration-150 ease-in-out font-light">Modify</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex justify-between col1 col px-3 h-10 mt-4 mx-8 items-center">
+
+                <p class="col2 text-xs mx-5 pt-2">1 - 3 Of 40 Entries</p>
+            <div class="flex mx-16">
+                <img class="w-4 col2" src="/Images/icon-chevron-down 1.svg"/>
+                <p class="col2 text-xs mx-5 pt-2">1 2 3 4 Entries</p>
+                    <div class="bgcol rounded w-30">
+                        <button type="button" class="inline-block bgcol3 px-2 py-2.5 rounded text-white shadow-md focus:ring-0 transition duration-150 ease-in-out font-light"><img class="" src="/Images/arrow-down.svg"/></button>
+                    </div>
+            </div>
+        </div>
+        </div>
+
+    </aside>
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tw.js"></script>
+    <script src="../styles/tw.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+  </body>
+  
+  </html>
